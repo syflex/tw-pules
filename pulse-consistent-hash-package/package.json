@@ -1,0 +1,26 @@
+{
+  "name": "pulse-consistent-hash-package",
+  "version": "1.0.0",
+  "description": "consistent hashing package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "consistent",
+    "hashing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {},
+  "files": [
+    "lib/**/*"
+  ]
+}

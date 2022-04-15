@@ -1,0 +1,17 @@
+FROM node:15.6.0-alpine3.10
+
+# Define working directory
+WORKDIR /home/node/app
+
+# Install dependencies
+COPY package*.json ./
+RUN npm ci
+
+# copy source and start script
+COPY . .
+
+# document the port exposed by server
+EXPOSE 5000
+
+# execute start script
+RUN npm run start:dev

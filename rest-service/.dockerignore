@@ -1,0 +1,11 @@
+node_modules
+logs
+*.log
+.vscode
+.git
+.DS_Store
+docker/.data
+.env.sample
+dist
+uploads
+.idea
